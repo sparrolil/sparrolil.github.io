@@ -4,7 +4,17 @@ export const config = {
     { text: "Guides", link: "/en/guides/" },
     { text: "Blog", link: "/en/blog/" },
   ],
-  sidebar: [],
+  sidebar: [
+    {
+      text: "setup vps",
+      items: [
+        {
+          text: "Installing XanMod Kernel and Enabling BBRv3",
+          link: "/en/guides/install-xanmod.md",
+        },
+      ],
+    },
+  ],
   footer: {
     message:
       'Released under the <a href="https://github.com/sparrolil/sparrolil.github.io/blob/main/LICENSE">MIT License</a>',

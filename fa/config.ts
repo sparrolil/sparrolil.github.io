@@ -6,7 +6,17 @@ export const config: DefaultTheme.Config = {
     { text: "راهنمایی‌ها", link: "/fa/guides/" },
     { text: "بلاگ", link: "/fa/blog/" },
   ],
-  sidebar: [],
+  sidebar: [
+    {
+      text: "راه‌اندازی و بهینه‌سازی سرور",
+      items: [
+        {
+          text: "نصب هسته XanMod و فعال‌سازی BBRv۳",
+          link: "/fa/guides/install-xanmod.md",
+        },
+      ],
+    },
+  ],
   footer: {
     message:
       'Released under the <a href="https://github.com/sparrolil/sparrolil.github.io/blob/main/LICENSE">MIT License</a>',
