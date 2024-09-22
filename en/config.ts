@@ -6,7 +6,7 @@ export const config = {
   ],
   sidebar: [
     {
-      text: "setup vps",
+      text: "VPS Setup and Optimization",
       items: [
         {
           text: "Installing XanMod Kernel and Enabling BBRv3",
