@@ -145,6 +145,8 @@
     "Noto Color Emoji";
 }
 
-.VPSidebar {
-  transform: translateX(0) !important;
+@media (min-width: 960px) {
+  .VPSidebar {
+    transform: translateX(0) !important;
+  }
 }
