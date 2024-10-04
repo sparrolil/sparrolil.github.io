@@ -12,6 +12,10 @@ export const config = {
           text: "Installing XanMod Kernel and Enabling BBRv3",
           link: "/en/guides/install-xanmod.md",
         },
+        {
+          text: "Changing the Default SSH Port",
+          link: "/en/guides/change-ssh-port.md",
+        },
       ],
     },
   ],

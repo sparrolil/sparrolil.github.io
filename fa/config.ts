@@ -14,6 +14,10 @@ export const config: DefaultTheme.Config = {
           text: "نصب هسته XanMod و فعال‌سازی BBRv۳",
           link: "/fa/guides/install-xanmod.md",
         },
+        {
+          text: "تغییر پورت پیش‌فرض SSH",
+          link: "/fa/guides/change-ssh-port.md",
+        },
       ],
     },
   ],
